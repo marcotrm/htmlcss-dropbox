@@ -6,6 +6,35 @@
 }
 /* RESET */
 
+/* GENERAL */
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.margin-30{
+    margin: 30px 0;
+}
+
+i{
+    font-size: 50px;
+    margin: 30px 0px;
+}
+/* GENERAL */
+
+/* BUTTONS */
+
+.btn{
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    background-color: #0D4093;
+    cursor: pointer;
+    }
+/* BUTTONS */
+
 /* TYPO */
 .roboto-regular {
     font-family: "Roboto", serif;
@@ -16,7 +45,6 @@
 
 
 /* HEADER */
-
 a{
     text-decoration: none;
     color: black;
@@ -44,12 +72,35 @@ nav{
     margin-right: 8px;
     
 }
+/* HEADER */
 
-/* BUTTONS */
+/* MAIN */
+h1{
+    padding: 40px;
+    font-size: 90px;
+    margin-left: 120px;
+    margin-bottom: -35px;
+}
 
-.btn{
-border: none;
-padding: 8px 14px;
-color: white;
-background-color: #0D4093;
+.buisness{
+font-size: 23px;
+
+}
+
+.jumbo{
+    background-color: #B4D0E6;
+}
+
+.col-small{
+    width: 40%;
+    margin-top: 70px;
+}
+
+.col-bigger{
+    width: 60%;
+}
+
+.jumbo-img{
+    position: relative;
+    top: 70px;
 }
