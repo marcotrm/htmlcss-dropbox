@@ -7,10 +7,19 @@
 /* RESET */
 
 /* GENERAL */
-.container{
+.container-big{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.container-small{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
     display: flex;
 }
 
@@ -18,11 +27,52 @@
     margin: 30px 0;
 }
 
-i{
+.header-i{
     font-size: 50px;
     margin: 30px 0px;
 }
+
+.gap{
+    gap: 7%;
+}
+
+.pd-l{
+    padding-left: 22px;
+}
+
+.pd-l2{
+    padding-left: 24px;
+}
+
+i{
+    padding-right: 7px;
+}
+
+.get-now{
+    text-decoration-line: underline;
+    color: #0D4093;
+}
 /* GENERAL */
+
+/* LI */
+ul{
+    list-style-type:none;
+    font-size: 13px;
+   
+}
+
+li{
+    padding-bottom: 25px;
+}
+
+.check-list{
+    margin-top: 25px;
+}
+
+.blue{
+color: #0D4093;
+}
+/* LI */
 
 /* BUTTONS */
 
@@ -33,6 +83,13 @@ i{
     background-color: #0D4093;
     cursor: pointer;
     }
+
+.gratis{
+    margin-top: 15px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
 /* BUTTONS */
 
 /* TYPO */
@@ -41,10 +98,42 @@ i{
     font-weight: 400;
     font-style: normal;
   }
+
+  body{
+    font-family: Roboto;
+  }
+
+  h1{
+    font-size: 75px;
+    padding: 30px 0;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+h4{
+    font-size: 13px;
+    margin-top: 35px;
+}
 /* TYPO */
 
 
 /* HEADER */
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -56,7 +145,8 @@ nav{
     font-size: 14px;
     align-items: center;
     line-height: 32px;
-    margin: 10px 8px;
+    margin: 0px 8px;
+    min-height: 55px;
 }
 
 .nav-left{
@@ -75,13 +165,6 @@ nav{
 /* HEADER */
 
 /* MAIN */
-h1{
-    padding: 40px;
-    font-size: 90px;
-    margin-left: 120px;
-    margin-bottom: -35px;
-}
-
 .buisness{
 font-size: 23px;
 
@@ -103,4 +186,74 @@ font-size: 23px;
 .jumbo-img{
     position: relative;
     top: 70px;
+}
+
+.fatturation{
+margin: 50px 0px;
+gap: 10px;
+}
+
+.fat-month{
+    margin-right: 20px;
+}
+
+.col-vertical{
+    width: calc(100%/3 - 16px);
+    border: 1px solid lightgray;
+
+}
+
+.head-col{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+.description-col{
+    padding: 0px 40px;
+    margin-top: 35px;
+}
+
+.price{
+    padding: 15px 0px;
+}
+
+.month{
+    color: lightgray;
+    padding-bottom: 50px;
+}
+
+.hr-col{
+    width: 45px;
+}
+
+.oppure{
+    margin-bottom: 35px;
+}
+
+.col-bottom{
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 40px;
+}
+
+.col-title > h2{
+    margin-top: 0px;
+} 
+
+.col-title{
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cnt{
+    margin-left: 30px;
+}
+
+.solution{
+    margin-left: 30px;
+    padding-top: 65px;
 }
