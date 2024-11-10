@@ -90,6 +90,16 @@ color: #0D4093;
     margin-bottom: 25px;
 }
 
+.btn-primary{
+    padding: 10px 15px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button-container{
+    margin-top: 30px;
+}
 /* BUTTONS */
 
 /* TYPO */
@@ -121,6 +131,28 @@ h3{
 h4{
     font-size: 13px;
     margin-top: 35px;
+}
+
+.fnt-siz{
+    font-size: 18px;
+}
+
+.description-col > h3{
+    font-size: 26px;
+}
+
+.container-small > h3{
+    font-size: 40px;
+    margin-top: 140px;
+}
+
+h5{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.tiny-description{
+    font-size: 18px;
 }
 /* TYPO */
 
@@ -189,8 +221,8 @@ font-size: 23px;
 }
 
 .fatturation{
-margin: 50px 0px;
-gap: 10px;
+    margin: 50px 0px;
+    gap: 10px;
 }
 
 .fat-month{
@@ -256,4 +288,21 @@ gap: 10px;
 .solution{
     margin-left: 30px;
     padding-top: 65px;
+    margin-bottom: 30px;
 }
+
+.first-col{
+    width: 60%;
+    margin-top: 200px;
+}
+
+.scnd-col{
+    width: 40%;
+    margin-top: 250px;
+}
+
+.tiny-col{
+    width: calc(100%/3 - 16px);
+    margin-top: 40px;
+}
+
