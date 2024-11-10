@@ -154,6 +154,11 @@ h5{
 .tiny-description{
     font-size: 18px;
 }
+
+.container-small > h2{
+    line-height: 50px;
+    margin-bottom: 45px;
+}
 /* TYPO */
 
 
@@ -304,5 +309,11 @@ font-size: 23px;
 .tiny-col{
     width: calc(100%/3 - 16px);
     margin-top: 40px;
+}
+
+.container-small > a{
+    text-decoration: underline;
+    color: #0D4093;
+    cursor: pointer;
 }
 
