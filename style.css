@@ -72,6 +72,11 @@ li{
 .blue{
 color: #0D4093;
 }
+
+.foot-col li{
+    padding-bottom: 10px;
+    color: #818180;
+}
 /* LI */
 
 /* BUTTONS */
@@ -158,6 +163,13 @@ h5{
 .container-small > h2{
     line-height: 50px;
     margin-bottom: 45px;
+}
+
+h6{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 22px;
+    
 }
 /* TYPO */
 
@@ -316,4 +328,31 @@ font-size: 23px;
     color: #0D4093;
     cursor: pointer;
 }
+/* MAIN */
 
+/* FOOTER */
+footer{
+    background-color: black;
+    margin-top: 150px;
+}
+
+footer > .container-big{
+    color: white;
+}
+
+.foot-col{
+    width: calc(100% / 5 );
+}
+
+.foot-col hr{
+    width: 90px;
+    margin-top: 80px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.language{
+    color: #818180;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
