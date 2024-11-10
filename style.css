@@ -76,6 +76,7 @@ color: #0D4093;
 .foot-col li{
     padding-bottom: 10px;
     color: #818180;
+    cursor: pointer;
 }
 /* LI */
 
