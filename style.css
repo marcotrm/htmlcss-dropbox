@@ -109,7 +109,7 @@ color: #0D4093;
 
 .btn:hover{
     background-color: #3280fe;
-    transition: 0,7s;
+    transition-duration: 0.7s;
 }
 /* BUTTONS */
 
