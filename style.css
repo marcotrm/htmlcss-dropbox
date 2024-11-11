@@ -49,7 +49,7 @@ i{
 /* LI */
 ul{
     list-style-type:none;
-    font-size: 13px;
+    font-size: 14px;
    
 }
 
@@ -65,7 +65,7 @@ li{
 }
 
 .blue{
-color: #0D4093;
+color: #0061FE;
 }
 
 .foot-col li{
@@ -201,7 +201,7 @@ nav{
     align-items: center;
     line-height: 32px;
     margin: 0px 8px;
-    min-height: 55px;
+    min-height: 70px;
 }
 
 .nav-left{
@@ -242,6 +242,8 @@ font-size: 23px;
 .jumbo-img{
     position: relative;
     top: 70px;
+    max-width: 100%;
+    height: 100%;
 }
 
 .fatturation{
